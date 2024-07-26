@@ -13,7 +13,8 @@ class Grades
 {
 private: 
 	Category categories[CATEGORIES_M];
-	Assignment assignments[ASSIGNMENTS_M];
+	//Assignment assignments[ASSIGNMENTS_M];
+	int assignments[ASSIGNMENTS_M];
 	string category;
 	string assignment;
 public:

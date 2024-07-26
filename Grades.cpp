@@ -33,7 +33,7 @@ string Grades::getCategory()
 //Getter for assignment
 string Grades::getAssignment()
 {
-	cout << "Enter assignment name: ";
+	cout << "Enter assignment name: " << endl;
 	cin >> assignment;
 	return assignment;
 }
@@ -55,13 +55,13 @@ int Grades::getScores()
 	Assignment assignment;
 
 	int num;
-	cout << "How many scores will you be entering for this assignment?: " << endl;
+	cout << "How many scores will you be entering: " << endl;
 	cin >> num;
 	
 	for (int i = 0; i < num; i++)
 	{
 		cout << "Please enter the score for assignment #" << i + 1 << ": " << endl;
-		cin >> 
+		cin >> assignments[i];
 	}
 
 }
