@@ -15,14 +15,15 @@ private:
 	Category categories[CATEGORIES_M];
 	Assignment assignments[ASSIGNMENTS_M];
 	string category;
-	int assignment;
+	string assignment;
 public:
 	Grades();
 	void setCategory();
 	void setAssignment();
 	string getCategory();
-	int getAssignment();
+	string getAssignment();
 	void readFile();
+	int getScores();
 	double calculateFinal();
 	void printCatSummary();
 	void printTotalPoints();

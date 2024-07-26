@@ -135,6 +135,7 @@
     <ClCompile Include="Assignment.cpp" />
     <ClCompile Include="Category.cpp" />
     <ClCompile Include="Grades.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
