@@ -14,13 +14,13 @@ class Grades
 private: 
 	Category categories[CATEGORIES_M];
 	Assignment assignments[ASSIGNMENTS_M];
-	int category;
+	string category;
 	int assignment;
 public:
 	Grades();
 	void setCategory();
 	void setAssignment();
-	int getCategory();
+	string getCategory();
 	int getAssignment();
 	void readFile();
 	double calculateFinal();
